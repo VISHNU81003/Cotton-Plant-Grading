@@ -133,14 +133,14 @@ class _ObjectDetectionScreenState extends State<ObjectDetectionScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/icar_logo.png',
+              'assets/logo.png',
               height: 60,
               width: 60,
             ),
             const SizedBox(width: 10),
             Expanded(
               child: Text(
-                'ICAR - CENTRAL INSTITUTE \nFOR COTTON RESEARCH',
+                'Plant grading App',
                 style: GoogleFonts.poppins(
                   color: const Color.fromARGB(255, 255, 252, 64),
                   fontWeight: FontWeight.bold,
@@ -151,7 +151,7 @@ class _ObjectDetectionScreenState extends State<ObjectDetectionScreen> {
             ),
             const SizedBox(width: 10),
             Image.asset(
-              'assets/cicr_logo.png',
+              'assets/logo2.png',
               height: 60,
               width: 60,
             ),
@@ -326,7 +326,7 @@ class _ObjectDetectionScreenState extends State<ObjectDetectionScreen> {
           children: [        
             const SizedBox(height: 4),
             Text(
-              'Dr. K. Rameash\nICAR - CICR, Regional Station\nCoimbatore',
+              'Vishnu S\n© Copyright 2025. All rights Reserved.',
               style: GoogleFonts.poppins(
                 fontSize: 12,
                 fontWeight: FontWeight.bold,
