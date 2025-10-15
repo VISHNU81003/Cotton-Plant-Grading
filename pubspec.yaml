@@ -1,0 +1,38 @@
+name: plant_grader
+description: "A Flutter app for grading plants based on leaf classification."
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  tflite_v2: ^1.0.0
+  image_picker: ^1.1.2
+  google_fonts: ^6.2.1
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+  camera: ^0.10.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/labels.txt
+    - assets/model_unquant.tflite
+    - assets/background.jpg
+    - assets/icar_logo.png
+    - assets/cicr_logo.png
