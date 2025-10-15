@@ -34,5 +34,5 @@ flutter:
     - assets/labels.txt
     - assets/model_unquant.tflite
     - assets/background.jpg
-    - assets/icar_logo.png
-    - assets/cicr_logo.png
+    - assets/left_logo.png
+    - assets/right_logo.png
