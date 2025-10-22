@@ -4,7 +4,7 @@ version: 1.0.0+1
 
 environment:
   sdk: ^3.5.4
-
+# update to latest  prams accordingly with suitable configs
 dependencies:
   flutter:
     sdk: flutter
