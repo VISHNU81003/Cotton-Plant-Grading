@@ -97,7 +97,6 @@ class _ObjectDetectionScreenState extends State<ObjectDetectionScreen> {
         imageStd: 127.5,
       );
 
-      // Determine the majority class
       if (recognitions != null && recognitions.isNotEmpty) {
         Map<String, int> classCounts = {};
         for (var rec in recognitions) {
@@ -274,7 +273,6 @@ class _ObjectDetectionScreenState extends State<ObjectDetectionScreen> {
                   ),
                   const SizedBox(height: 20),
 
-                  // Result Display Card
                   if (_recognitions != null)
                     Card(
                       elevation: 8,
@@ -287,7 +285,6 @@ class _ObjectDetectionScreenState extends State<ObjectDetectionScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            // Title for the result
                             Text(
                               'Plant Grade',
                               style: GoogleFonts.poppins(
